@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantify/components/body.dart';
+import 'package:plantify/screens/home/components/body.dart';
 
 class Homescreen extends StatelessWidget {
   @override
@@ -13,7 +13,12 @@ class Homescreen extends StatelessWidget {
   AppBar buildAppBar() {
     return AppBar(
       elevation: 0,
-      leading: IconButton(icon: Icon(Icons.menu), onPressed: null),
+      leading: IconButton(
+          icon: Icon(
+            Icons.menu,
+            color: Colors.white,
+          ),
+          onPressed: null),
     );
   }
 }
