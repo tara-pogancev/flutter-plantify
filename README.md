@@ -18,4 +18,4 @@ Its focus is mostly on UI design, featuring a homepage, and a plant details page
 
 
 ## Screenshots
-![Restaurants](imgages/screenshot01.jpg)
+![Plantify](images/screenshot01.jpg)
