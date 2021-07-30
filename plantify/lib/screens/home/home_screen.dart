@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:plantify/components/bottom_nav_menu.dart';
+import 'package:plantify/const.dart';
 import 'package:plantify/screens/home/components/body.dart';
 
 class Homescreen extends StatelessWidget {
@@ -7,6 +9,7 @@ class Homescreen extends StatelessWidget {
     return Scaffold(
       appBar: buildAppBar(),
       body: Body(),
+      bottomNavigationBar: BottomNavMenu(),
     );
   }
 
@@ -22,3 +25,4 @@ class Homescreen extends StatelessWidget {
     );
   }
 }
+
