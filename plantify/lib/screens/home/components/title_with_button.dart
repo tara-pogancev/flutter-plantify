@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:plantify/screens/details/details_screen.dart';
 import 'package:plantify/screens/home/components/title_with_underline.dart';
 
 import '../../../const.dart';
@@ -32,7 +33,12 @@ class TitleWithButton extends StatelessWidget {
                 ),
               ),
             ),
-            onPressed: press(),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => DetailsScreen()),
+              );
+            },
             child: Text("More"),
           )
         ],

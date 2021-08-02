@@ -15,8 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Plantify',
       theme: ThemeData(
         scaffoldBackgroundColor: kBackgroundColor,
-          primaryColor: kPrimaryColor,
-          textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor)),
+        primaryColor: kPrimaryColor,
+        textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
+      ),
       home: Homescreen(),
     );
   }

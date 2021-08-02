@@ -1,5 +1,6 @@
-
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:plantify/screens/details/details_screen.dart';
 import 'package:plantify/screens/home/components/recommended_plant_card.dart';
 
 class RecommendedPlants extends StatelessWidget {

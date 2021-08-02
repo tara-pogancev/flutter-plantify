@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:plantify/screens/details/details_screen.dart';
 import 'package:plantify/screens/home/components/header_with_search_bar.dart';
 import 'package:plantify/screens/home/components/recommended_plant_card.dart';
 import 'package:plantify/screens/home/components/recommended_plants.dart';
